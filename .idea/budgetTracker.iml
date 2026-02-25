@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/budgetTrackerApi/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/budgetTrackerApi/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/doctrine-migrations-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/doctrine/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/doctrine-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/maker-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/polyfill-php84" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/polyfill-php85" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/runtime" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/budgetTrackerApi/vendor/symfony/yaml" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
