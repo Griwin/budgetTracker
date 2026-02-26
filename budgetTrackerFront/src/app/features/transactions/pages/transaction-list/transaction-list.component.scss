@@ -1,0 +1,57 @@
+.page {
+  display: grid;
+  gap: 16px;
+}
+
+.page-header {
+  display: grid;
+  gap: 4px;
+
+  h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.table-card {
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.table-wrapper {
+  overflow: auto;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+}
+
+.empty {
+  padding: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.error {
+  color: #b00020;
+  padding: 14px;
+  margin: 0;
+}
+
+.chip-income {
+  background: rgba(46, 125, 50, 0.12);
+  color: #2e7d32;
+}
+
+.chip-expense {
+  background: rgba(198, 40, 40, 0.12);
+  color: #c62828;
+}

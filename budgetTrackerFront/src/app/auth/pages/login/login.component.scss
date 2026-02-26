@@ -1,0 +1,23 @@
+.page {
+  min-height: calc(100vh - 64px); // 64px = hauteur toolbar Material
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 6px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.error {
+  color: #b00020;
+  margin: 12px 0 0;
+}

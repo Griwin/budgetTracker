@@ -1,0 +1,71 @@
+<div class="page">
+
+  <div class="page-header">
+    <h1>Nouvelle transaction</h1>
+    <p class="subtitle">Ajoutez un revenu ou une dépense.</p>
+  </div>
+
+  <mat-card class="form-card">
+    <form [formGroup]="form" (ngSubmit)="submit()">
+
+      <!-- Montant -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Montant (€)</mat-label>
+        <input matInput type="number" formControlName="amount" />
+        <mat-error *ngIf="form.get('amount')?.hasError('required')">
+          Le montant est requis.
+        </mat-error>
+        <mat-error *ngIf="form.get('amount')?.hasError('min')">
+          Le montant doit être supérieur à 0.
+        </mat-error>
+      </mat-form-field>
+
+      <!-- Date -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <!-- Type -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Type</mat-label>
+        <mat-select formControlName="type">
+          <mat-option value="expense">Dépense</mat-option>
+          <mat-option value="income">Revenu</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Catégorie -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Catégorie</mat-label>
+        <mat-select formControlName="category_id">
+          <mat-option *ngFor="let c of categories" [value]="c.id">
+            {{ c.name }} ({{ c.type }})
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Bouton -->
+      <div class="actions">
+        <button mat-raised-button color="primary"
+                type="submit"
+                [disabled]="form.invalid || isLoading">
+
+          <mat-spinner *ngIf="isLoading"
+                       diameter="20"
+                       strokeWidth="3">
+          </mat-spinner>
+
+          <span *ngIf="!isLoading">Créer</span>
+        </button>
+      </div>
+
+      <p *ngIf="errorMessage" class="error">
+        {{ errorMessage }}
+      </p>
+
+    </form>
+  </mat-card>
+</div>

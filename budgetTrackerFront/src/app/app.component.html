@@ -1,0 +1,37 @@
+<mat-toolbar color="primary">
+
+  <!-- Logo / Title -->
+  <span class="brand" routerLink="/dashboard" style="cursor: pointer;">
+    BudgetTracker
+  </span>
+
+  <span class="spacer"></span>
+
+  <!-- Menu Transactions -->
+  <button mat-button [matMenuTriggerFor]="transactionMenu">
+    Transactions
+    <mat-icon>expand_more</mat-icon>
+  </button>
+
+  <mat-menu #transactionMenu="matMenu">
+    <button mat-menu-item routerLink="/transactions">
+      <mat-icon>list</mat-icon>
+      <span>Voir les transactions</span>
+    </button>
+
+    <button mat-menu-item routerLink="/transactions/create">
+      <mat-icon>add</mat-icon>
+      <span>Ajouter une transaction</span>
+    </button>
+  </mat-menu>
+
+  <!-- Logout -->
+  <button mat-stroked-button (click)="logout()">
+    Logout
+  </button>
+
+</mat-toolbar>
+
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div>
